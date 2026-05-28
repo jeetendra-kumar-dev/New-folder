@@ -1,0 +1,179 @@
+
+> saas-starter@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.5.18
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.24:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.3s
+ ✓ Compiled /middleware in 427ms (115 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 4.4s (749 modules)
+ GET /login 200 in 4916ms
+ GET /login 200 in 99ms
+ GET /login 200 in 74ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 3.8s (1865 modules)
+ GET /dashboard 200 in 4064ms
+ GET /dashboard 200 in 45ms
+ GET /dashboard 200 in 40ms
+ GET /login 200 in 439ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 699ms (1021 modules)
+ GET /favicon.ico 200 in 1158ms
+ ○ Compiling /dashboard/subscriptions ...
+ ✓ Compiled /dashboard/subscriptions in 1401ms (1885 modules)
+ GET /dashboard/subscriptions 200 in 1672ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1852ms (1913 modules)
+ GET / 200 in 2972ms
+ GET /login?redirect=%2Fdashboard 200 in 90ms
+ GET /login 200 in 68ms
+ GET /dashboard 200 in 64ms
+ GET /dashboard 200 in 50ms
+ GET /dashboard/subscriptions 200 in 67ms
+ ○ Compiling /dashboard/goals ...
+ ✓ Compiled /dashboard/goals in 1431ms (1905 modules)
+ GET /dashboard/goals 200 in 2004ms
+ GET /dashboard/goals 200 in 62ms
+ ○ Compiling /dashboard/memories ...
+ ✓ Compiled /dashboard/memories in 1253ms (1914 modules)
+ GET /dashboard/memories 200 in 1673ms
+ GET /dashboard/memories 200 in 46ms
+ GET /dashboard 200 in 61ms
+ GET /dashboard/subscriptions 200 in 63ms
+ GET /dashboard/memories 200 in 49ms
+ ○ Compiling /dashboard/notifications ...
+ ✓ Compiled /dashboard/notifications in 1277ms (1923 modules)
+ GET /dashboard/notifications 200 in 1507ms
+ GET /dashboard/memories 200 in 62ms
+ GET /dashboard/goals 200 in 71ms
+ GET /dashboard/subscriptions 200 in 86ms
+ GET /dashboard 200 in 47ms
+ ○ Compiling /dashboard/settings ...
+ ✓ Compiled /dashboard/settings in 2.1s (1932 modules)
+ GET /dashboard/settings 200 in 2747ms
+ ✓ Compiled in 961ms (881 modules)
+ GET /dashboard/subscriptions 200 in 558ms
+ GET /dashboard/settings 200 in 478ms
+ GET /dashboard/subscriptions 200 in 124ms
+ GET /dashboard/settings 200 in 177ms
+ GET /dashboard/settings 200 in 53ms
+ GET /dashboard/subscriptions 200 in 60ms
+ GET /dashboard/settings 200 in 53ms
+ GET /dashboard/notifications 200 in 104ms
+ GET /dashboard 200 in 77ms
+ ✓ Compiled in 646ms (881 modules)
+ GET /dashboard/subscriptions 200 in 111ms
+ GET /dashboard 200 in 113ms
+ ✓ Compiled in 323ms (881 modules)
+ GET /dashboard/subscriptions 200 in 117ms
+ GET /dashboard 200 in 120ms
+ ✓ Compiled in 512ms (881 modules)
+ ✓ Compiled in 525ms (881 modules)
+ GET /dashboard/subscriptions 200 in 385ms
+ GET /dashboard 200 in 390ms
+ GET /dashboard/subscriptions 200 in 156ms
+ GET /dashboard 200 in 157ms
+ ✓ Compiled in 505ms (881 modules)
+ GET /dashboard/subscriptions 200 in 88ms
+ GET /dashboard 200 in 93ms
+ ✓ Compiled in 278ms (881 modules)
+ GET /dashboard/subscriptions 200 in 130ms
+ GET /dashboard 200 in 132ms
+   Reload env: .env.local
+ ✓ Compiled in 1926ms (2006 modules)
+ GET /dashboard/subscriptions 200 in 370ms
+ GET /dashboard 200 in 83ms
+ GET /dashboard 200 in 679ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 926ms (1041 modules)
+ GET /favicon.ico 200 in 1175ms
+ ✓ Compiled in 526ms (881 modules)
+ ✓ Compiled in 305ms (881 modules)
+ ✓ Compiled in 478ms (881 modules)
+ ✓ Compiled in 254ms (881 modules)
+ ✓ Compiled in 404ms (881 modules)
+ ✓ Compiled in 536ms (881 modules)
+ ✓ Compiled in 265ms (881 modules)
+ ✓ Compiled in 212ms (881 modules)
+ ✓ Compiled in 254ms (881 modules)
+ ✓ Compiled in 278ms (881 modules)
+ ✓ Compiled in 418ms (881 modules)
+ ✓ Compiled in 407ms (881 modules)
+ ✓ Compiled in 326ms (881 modules)
+ ✓ Compiled in 377ms (881 modules)
+ ✓ Compiled in 368ms (881 modules)
+ ✓ Compiled in 276ms (881 modules)
+ ✓ Compiled in 763ms (881 modules)
+ ✓ Compiled in 535ms (881 modules)
+ ✓ Compiled in 1527ms (881 modules)
+ ✓ Compiled in 1196ms (881 modules)
+ ✓ Compiled in 702ms (881 modules)
+ ✓ Compiled in 669ms (881 modules)
+ ✓ Compiled in 1204ms (881 modules)
+ ✓ Compiled in 663ms (881 modules)
+ ✓ Compiled in 1338ms (881 modules)
+ ✓ Compiled in 741ms (881 modules)
+ ✓ Compiled in 1374ms (881 modules)
+ ✓ Compiled in 793ms (881 modules)
+ ✓ Compiled in 1345ms (881 modules)
+ ✓ Compiled in 735ms (881 modules)
+ ✓ Compiled in 706ms (881 modules)
+ ✓ Compiled in 704ms (881 modules)
+ ✓ Compiled in 768ms (881 modules)
+ ✓ Compiled in 1007ms (881 modules)
+ ✓ Compiled in 656ms (881 modules)
+ ✓ Compiled in 654ms (881 modules)
+ ✓ Compiled in 1373ms (881 modules)
+ ✓ Compiled in 713ms (881 modules)
+ ✓ Compiled in 1009ms (881 modules)
+ ✓ Compiled in 844ms (881 modules)
+ ✓ Compiled in 711ms (881 modules)
+ ✓ Compiled in 1944ms (881 modules)
+ ✓ Compiled in 1075ms (881 modules)
+ ✓ Compiled in 871ms (881 modules)
+ ✓ Compiled in 853ms (881 modules)
+ ✓ Compiled in 887ms (881 modules)
+ ✓ Compiled in 859ms (881 modules)
+ ✓ Compiled in 1711ms (881 modules)
+ ✓ Compiled in 751ms (881 modules)
+ ✓ Compiled in 761ms (881 modules)
+ ✓ Compiled in 696ms (881 modules)
+ ✓ Compiled in 1231ms (881 modules)
+ ✓ Compiled in 782ms (881 modules)
+ ✓ Compiled in 1773ms (881 modules)
+ ✓ Compiled in 910ms (881 modules)
+ ✓ Compiled in 1061ms (881 modules)
+ ✓ Compiled in 794ms (881 modules)
+ ✓ Compiled in 1013ms (881 modules)
+ ✓ Compiled in 1222ms (881 modules)
+ ✓ Compiled in 1681ms (881 modules)
+ ✓ Compiled in 1288ms (881 modules)
+ ✓ Compiled in 727ms (881 modules)
+ ✓ Compiled in 857ms (881 modules)
+ ✓ Compiled in 865ms (881 modules)
+ ✓ Compiled in 1805ms (881 modules)
+ ✓ Compiled in 899ms (881 modules)
+ ✓ Compiled in 418ms (881 modules)
+ ✓ Compiled in 1047ms (881 modules)
+ ✓ Compiled in 585ms (881 modules)
+ ✓ Compiled in 836ms (881 modules)
+ ✓ Compiled in 679ms (881 modules)
+ ✓ Compiled in 5.1s (2020 modules)
+ ✓ Compiled in 1278ms (881 modules)
+ ✓ Compiled in 671ms (881 modules)
+ ✓ Compiled in 775ms (881 modules)
+ ✓ Compiled in 957ms (881 modules)
+ ✓ Compiled in 4.4s (2020 modules)
+ ✓ Compiled in 1456ms (881 modules)
+ ✓ Compiled in 690ms (881 modules)
+ ✓ Compiled in 2.2s (1905 modules)
+ ✓ Compiled in 9.9s (1909 modules)
+ ✓ Compiled in 722ms (883 modules)
+ ✓ Compiled in 2.3s (1909 modules)
+ ✓ Compiled in 1065ms (883 modules)
+ ✓ Compiled in 1331ms (883 modules)

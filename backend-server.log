@@ -1,0 +1,277 @@
+
+> saas-starter-backend@0.1.0 start
+> node dist/server.js
+
+◇ injected env (12) from .env // tip: ⌘ override existing { override: true }
+{"level":"info","message":"Background jobs started","timestamp":"2026-05-22T17:38:52.275Z"}
+{"level":"info","message":"API server listening on port 4000","timestamp":"2026-05-22T17:38:52.281Z","meta":{"environment":"development","apiPrefix":"/api/v1"}}
+{"level":"info","message":"\u001b[0mGET /api/v1/health \u001b[32m200\u001b[0m 1.666 ms - 144\u001b[0m","timestamp":"2026-05-22T17:39:01.406Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/health \u001b[32m200\u001b[0m 0.521 ms - 146\u001b[0m","timestamp":"2026-05-22T17:39:23.986Z"}
+{"level":"info","message":"Email OTP generated","timestamp":"2026-05-22T17:39:49.548Z","meta":{"email":"ui-1779471589008@example.com","code":"867311"}}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/otp/request \u001b[32m200\u001b[0m 348.581 ms - 214\u001b[0m","timestamp":"2026-05-22T17:39:49.549Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/otp/verify \u001b[32m200\u001b[0m 567.172 ms - 799\u001b[0m","timestamp":"2026-05-22T17:40:06.121Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[32m200\u001b[0m 21.304 ms - 359\u001b[0m","timestamp":"2026-05-22T17:40:10.537Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/dashboard/summary \u001b[32m200\u001b[0m 74.852 ms - 203\u001b[0m","timestamp":"2026-05-22T17:40:10.596Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 17.948 ms - -\u001b[0m","timestamp":"2026-05-22T17:40:25.590Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/subscriptions \u001b[32m200\u001b[0m 11.980 ms - 59\u001b[0m","timestamp":"2026-05-22T17:40:32.783Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 10.805 ms - -\u001b[0m","timestamp":"2026-05-22T17:40:40.638Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 28.447 ms - -\u001b[0m","timestamp":"2026-05-22T17:40:55.700Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/subscriptions \u001b[32m201\u001b[0m 23.697 ms - 333\u001b[0m","timestamp":"2026-05-22T17:41:01.560Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/subscriptions \u001b[32m200\u001b[0m 6.615 ms - 335\u001b[0m","timestamp":"2026-05-22T17:41:01.578Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[32m200\u001b[0m 10.607 ms - 685\u001b[0m","timestamp":"2026-05-22T17:41:01.594Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.759 ms - -\u001b[0m","timestamp":"2026-05-22T17:41:16.665Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.590 ms - -\u001b[0m","timestamp":"2026-05-22T17:41:31.727Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 19.618 ms - -\u001b[0m","timestamp":"2026-05-22T17:41:46.783Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 28.755 ms - -\u001b[0m","timestamp":"2026-05-22T17:42:01.830Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.470 ms - -\u001b[0m","timestamp":"2026-05-22T17:42:16.861Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 19.418 ms - -\u001b[0m","timestamp":"2026-05-22T17:42:31.892Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 19.115 ms - -\u001b[0m","timestamp":"2026-05-22T17:42:46.924Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 18.418 ms - -\u001b[0m","timestamp":"2026-05-22T17:43:01.961Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.039 ms - -\u001b[0m","timestamp":"2026-05-22T17:43:16.994Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.490 ms - -\u001b[0m","timestamp":"2026-05-22T17:43:32.043Z"}
+{"level":"info","message":"Email OTP generated","timestamp":"2026-05-22T17:43:35.380Z","meta":{"email":"jeetendra.kumar.dev@gmail.com","code":"884208"}}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/otp/request \u001b[32m200\u001b[0m 384.465 ms - 215\u001b[0m","timestamp":"2026-05-22T17:43:35.381Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/otp/verify \u001b[32m200\u001b[0m 808.656 ms - 794\u001b[0m","timestamp":"2026-05-22T17:43:43.359Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[32m200\u001b[0m 9.784 ms - 359\u001b[0m","timestamp":"2026-05-22T17:43:43.670Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/dashboard/summary \u001b[32m200\u001b[0m 43.778 ms - 203\u001b[0m","timestamp":"2026-05-22T17:43:43.706Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 12.378 ms - -\u001b[0m","timestamp":"2026-05-22T17:43:47.070Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/subscriptions \u001b[32m200\u001b[0m 5.183 ms - 59\u001b[0m","timestamp":"2026-05-22T17:43:47.608Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/goals \u001b[32m200\u001b[0m 13.313 ms - 51\u001b[0m","timestamp":"2026-05-22T17:43:53.599Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/memories \u001b[32m200\u001b[0m 10.749 ms - 54\u001b[0m","timestamp":"2026-05-22T17:43:56.766Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.644 ms - -\u001b[0m","timestamp":"2026-05-22T17:43:58.689Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.523 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:02.097Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.962 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:13.724Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.648 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:17.116Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.332 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:28.755Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 6.782 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:32.144Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.664 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:43.792Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.363 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:47.163Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.321 ms - -\u001b[0m","timestamp":"2026-05-22T17:44:58.840Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T17:45:00.023Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 10.141 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:02.187Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.156 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:13.885Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.424 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:17.211Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.638 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:28.912Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.549 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:32.239Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.556 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:43.943Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.042 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:47.260Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.131 ms - -\u001b[0m","timestamp":"2026-05-22T17:45:58.986Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.028 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:02.288Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 19.676 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:14.016Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.001 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:17.323Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.930 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:29.056Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.451 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:32.354Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.394 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:44.105Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.657 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:47.402Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.913 ms - -\u001b[0m","timestamp":"2026-05-22T17:46:59.152Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.419 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:02.435Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 27.549 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:14.201Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.737 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:17.462Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.107 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:29.245Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.247 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:32.496Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.099 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:44.300Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.583 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:47.529Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.190 ms - -\u001b[0m","timestamp":"2026-05-22T17:47:59.338Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 10.072 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:02.560Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.817 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:14.383Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.637 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:17.594Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.310 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:29.419Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.376 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:32.626Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.159 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:44.466Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.414 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:47.656Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.959 ms - -\u001b[0m","timestamp":"2026-05-22T17:48:59.511Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.966 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:02.688Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.146 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:14.541Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.301 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:17.718Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.466 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:29.585Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.285 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:32.742Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.451 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:44.631Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.583 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:47.778Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.061 ms - -\u001b[0m","timestamp":"2026-05-22T17:49:59.665Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 10.072 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:02.810Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.834 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:14.717Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.229 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:17.830Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.731 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:29.773Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.747 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:32.855Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 27.207 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:44.815Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.933 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:47.882Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.945 ms - -\u001b[0m","timestamp":"2026-05-22T17:50:59.849Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.102 ms - -\u001b[0m","timestamp":"2026-05-22T17:51:02.916Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.702 ms - -\u001b[0m","timestamp":"2026-05-22T17:51:14.886Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.044 ms - -\u001b[0m","timestamp":"2026-05-22T17:51:17.953Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 19.706 ms - -\u001b[0m","timestamp":"2026-05-22T17:51:29.931Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.413 ms - -\u001b[0m","timestamp":"2026-05-22T17:51:32.983Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.264 ms - -\u001b[0m","timestamp":"2026-05-22T17:51:44.965Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 4.485 ms - -\u001b[0m","timestamp":"2026-05-22T17:51:48.002Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 19.160 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:00.005Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.846 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:03.028Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.842 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:15.043Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.761 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:18.057Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.599 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:30.086Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.960 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:33.091Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.844 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:45.122Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.316 ms - -\u001b[0m","timestamp":"2026-05-22T17:52:48.123Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.223 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:00.162Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.663 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:03.150Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.637 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:15.193Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 10.085 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:18.180Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.779 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:30.234Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.217 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:33.204Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.732 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:45.279Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.152 ms - -\u001b[0m","timestamp":"2026-05-22T17:53:48.233Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.237 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:00.320Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.512 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:03.265Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.011 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:15.355Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.450 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:18.288Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 18.843 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:30.393Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.647 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:33.322Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.388 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:45.446Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.271 ms - -\u001b[0m","timestamp":"2026-05-22T17:54:48.369Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.272 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:00.494Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.210 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:03.419Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.621 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:15.536Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[33m401\u001b[0m 2.273 ms - 101\u001b[0m","timestamp":"2026-05-22T17:55:18.445Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 711.903 ms - 800\u001b[0m","timestamp":"2026-05-22T17:55:19.165Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 6.735 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:19.192Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.979 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:30.575Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.908 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:34.220Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.536 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:45.634Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.642 ms - -\u001b[0m","timestamp":"2026-05-22T17:55:49.248Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.434 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:00.670Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.538 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:04.281Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.748 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:15.711Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.305 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:19.312Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.508 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:30.749Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.193 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:34.342Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 27.206 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:45.796Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.896 ms - -\u001b[0m","timestamp":"2026-05-22T17:56:49.373Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.458 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:00.839Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.533 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:04.404Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.260 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:15.884Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.253 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:19.437Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.878 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:30.919Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.530 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:34.467Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.489 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:45.961Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.855 ms - -\u001b[0m","timestamp":"2026-05-22T17:57:49.499Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.196 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:01.008Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.642 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:04.531Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.279 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:16.049Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.464 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:19.561Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.316 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:31.087Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.729 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:34.593Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[33m401\u001b[0m 1.884 ms - 101\u001b[0m","timestamp":"2026-05-22T17:58:46.098Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 741.665 ms - 795\u001b[0m","timestamp":"2026-05-22T17:58:46.845Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.522 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:46.861Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.092 ms - -\u001b[0m","timestamp":"2026-05-22T17:58:49.639Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.380 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:01.899Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 9.569 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:04.672Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.204 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:16.931Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.617 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:19.703Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.033 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:31.965Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.241 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:34.738Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.004 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:47.010Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.475 ms - -\u001b[0m","timestamp":"2026-05-22T17:59:49.770Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T18:00:00.027Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.127 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:02.038Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 6.730 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:04.799Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/auth/me \u001b[32m200\u001b[0m 6.382 ms - 234\u001b[0m","timestamp":"2026-05-22T18:00:05.816Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/subscriptions \u001b[36m304\u001b[0m 5.434 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:12.986Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.889 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:17.057Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.973 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:19.826Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.196 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:32.093Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.678 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:34.859Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/subscriptions \u001b[32m201\u001b[0m 20.622 ms - 320\u001b[0m","timestamp":"2026-05-22T18:00:43.276Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/subscriptions \u001b[32m200\u001b[0m 7.010 ms - 322\u001b[0m","timestamp":"2026-05-22T18:00:43.288Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[32m200\u001b[0m 25.824 ms - 681\u001b[0m","timestamp":"2026-05-22T18:00:43.308Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.181 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:49.878Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.226 ms - -\u001b[0m","timestamp":"2026-05-22T18:00:58.323Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.508 ms - -\u001b[0m","timestamp":"2026-05-22T18:01:04.909Z"}
+{"level":"info","message":"\u001b[0mPATCH /api/v1/notifications/cmph7kuey0007lgil4lud4dg3/read \u001b[32m200\u001b[0m 15.018 ms - 351\u001b[0m","timestamp":"2026-05-22T18:01:07.132Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[32m200\u001b[0m 6.037 ms - 702\u001b[0m","timestamp":"2026-05-22T18:01:07.144Z"}
+{"level":"info","message":"\u001b[0mPATCH /api/v1/notifications/cmph86pdy0009lgiliz5gfr1q/read \u001b[32m200\u001b[0m 9.289 ms - 406\u001b[0m","timestamp":"2026-05-22T18:01:09.077Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[32m200\u001b[0m 6.835 ms - 723\u001b[0m","timestamp":"2026-05-22T18:01:09.087Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 27.382 ms - -\u001b[0m","timestamp":"2026-05-22T18:01:19.965Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.136 ms - -\u001b[0m","timestamp":"2026-05-22T18:01:24.101Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.612 ms - -\u001b[0m","timestamp":"2026-05-22T18:01:35.027Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.543 ms - -\u001b[0m","timestamp":"2026-05-22T18:01:39.118Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.228 ms - -\u001b[0m","timestamp":"2026-05-22T18:01:50.074Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.849 ms - -\u001b[0m","timestamp":"2026-05-22T18:01:54.145Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.523 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:05.121Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.317 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:09.163Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.513 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:20.167Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.054 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:24.194Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.536 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:35.214Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.515 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:39.214Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.455 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:50.264Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.160 ms - -\u001b[0m","timestamp":"2026-05-22T18:02:54.242Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.834 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:05.324Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.514 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:09.271Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.330 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:20.372Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.337 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:24.284Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.278 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:35.413Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.079 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:39.302Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.947 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:50.459Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.728 ms - -\u001b[0m","timestamp":"2026-05-22T18:03:54.333Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.804 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:05.525Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.519 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:09.365Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.169 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:20.575Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.499 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:24.398Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.974 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:35.622Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.195 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:39.423Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.917 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:50.668Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 7.908 ms - -\u001b[0m","timestamp":"2026-05-22T18:04:54.444Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 21.690 ms - -\u001b[0m","timestamp":"2026-05-22T18:05:05.709Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 6.898 ms - -\u001b[0m","timestamp":"2026-05-22T18:05:09.459Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.882 ms - -\u001b[0m","timestamp":"2026-05-22T18:05:20.749Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.866 ms - -\u001b[0m","timestamp":"2026-05-22T18:05:24.495Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.259 ms - -\u001b[0m","timestamp":"2026-05-22T18:05:35.787Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 17.025 ms - -\u001b[0m","timestamp":"2026-05-22T18:05:50.814Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 24.783 ms - -\u001b[0m","timestamp":"2026-05-22T18:06:05.853Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 18.890 ms - -\u001b[0m","timestamp":"2026-05-22T18:06:20.894Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 23.391 ms - -\u001b[0m","timestamp":"2026-05-22T18:06:35.935Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.450 ms - -\u001b[0m","timestamp":"2026-05-22T18:06:50.978Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 26.122 ms - -\u001b[0m","timestamp":"2026-05-22T18:07:06.014Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 6.976 ms - -\u001b[0m","timestamp":"2026-05-22T18:07:09.622Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/dashboard/summary \u001b[32m200\u001b[0m 27.170 ms - 206\u001b[0m","timestamp":"2026-05-22T18:07:15.380Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 12.833 ms - -\u001b[0m","timestamp":"2026-05-22T18:07:21.051Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 17.000 ms - -\u001b[0m","timestamp":"2026-05-22T18:07:36.082Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.977 ms - -\u001b[0m","timestamp":"2026-05-22T18:07:51.114Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.900 ms - -\u001b[0m","timestamp":"2026-05-22T18:08:06.147Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.652 ms - -\u001b[0m","timestamp":"2026-05-22T18:08:21.176Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 18.556 ms - -\u001b[0m","timestamp":"2026-05-22T18:08:36.207Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 20.567 ms - -\u001b[0m","timestamp":"2026-05-22T18:08:51.245Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 22.928 ms - -\u001b[0m","timestamp":"2026-05-22T18:10:25.184Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 25.843 ms - -\u001b[0m","timestamp":"2026-05-22T18:11:10.593Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T18:15:00.031Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/auth/me \u001b[33m401\u001b[0m 2.278 ms - 101\u001b[0m","timestamp":"2026-05-22T18:16:59.787Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/subscriptions \u001b[33m401\u001b[0m 0.846 ms - 101\u001b[0m","timestamp":"2026-05-22T18:16:59.790Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[33m401\u001b[0m 2.764 ms - 101\u001b[0m","timestamp":"2026-05-22T18:16:59.791Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 921.950 ms - 800\u001b[0m","timestamp":"2026-05-22T18:17:00.736Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 927.192 ms - 800\u001b[0m","timestamp":"2026-05-22T18:17:00.738Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/auth/me \u001b[33m401\u001b[0m 0.862 ms - 101\u001b[0m","timestamp":"2026-05-22T18:17:00.747Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[33m401\u001b[0m 0.850 ms - 101\u001b[0m","timestamp":"2026-05-22T18:17:00.751Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/dashboard/summary \u001b[33m401\u001b[0m 0.744 ms - 101\u001b[0m","timestamp":"2026-05-22T18:17:00.753Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/subscriptions \u001b[36m304\u001b[0m 11.469 ms - -\u001b[0m","timestamp":"2026-05-22T18:17:00.768Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/auth/me \u001b[32m200\u001b[0m 4.332 ms - 239\u001b[0m","timestamp":"2026-05-22T18:17:00.777Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 1016.013 ms - 800\u001b[0m","timestamp":"2026-05-22T18:17:00.832Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.718 ms - -\u001b[0m","timestamp":"2026-05-22T18:17:00.857Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 690.437 ms - 795\u001b[0m","timestamp":"2026-05-22T18:17:01.490Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 691.510 ms - 795\u001b[0m","timestamp":"2026-05-22T18:17:01.493Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/notifications \u001b[36m304\u001b[0m 8.165 ms - -\u001b[0m","timestamp":"2026-05-22T18:17:01.524Z"}
+{"level":"info","message":"\u001b[0mPOST /api/v1/auth/refresh \u001b[32m200\u001b[0m 733.725 ms - 795\u001b[0m","timestamp":"2026-05-22T18:17:01.531Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/dashboard/summary \u001b[36m304\u001b[0m 33.097 ms - -\u001b[0m","timestamp":"2026-05-22T18:17:01.561Z"}
+{"level":"info","message":"\u001b[0mGET /api/v1/auth/me \u001b[36m304\u001b[0m 5.608 ms - -\u001b[0m","timestamp":"2026-05-22T18:17:01.582Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T19:15:00.030Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T19:30:00.021Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T19:45:00.028Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T20:00:00.035Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-22T20:15:00.028Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T02:30:00.044Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T02:45:00.048Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T03:00:00.049Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T03:15:00.037Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T03:30:00.036Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T03:45:00.061Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T04:00:00.055Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T04:15:00.050Z"}
+{"level":"info","message":"Reminder job placeholder executed","timestamp":"2026-05-23T04:30:00.042Z"}
