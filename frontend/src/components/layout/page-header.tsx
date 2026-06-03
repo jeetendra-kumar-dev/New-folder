@@ -1,13 +1,19 @@
 type PageHeaderProps = {
   title: string;
   description?: string;
+  action?: React.ReactNode;
 };
 
-export function PageHeader({ title, description }: PageHeaderProps) {
+export function PageHeader({ title, description, action }: PageHeaderProps) {
   return (
-    <div>
-      <h1 className="text-2xl font-semibold tracking-normal">{title}</h1>
-      {description ? <p className="mt-2 max-w-3xl text-sm leading-6 text-muted-foreground">{description}</p> : null}
+    <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        <h1 className="text-2xl font-bold tracking-tight">{title}</h1>
+        {description && (
+          <p className="mt-1 max-w-3xl text-sm leading-relaxed text-muted-foreground">{description}</p>
+        )}
+      </div>
+      {action && <div className="flex-shrink-0">{action}</div>}
     </div>
   );
 }
