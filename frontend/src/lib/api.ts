@@ -3,7 +3,14 @@
 import { getStoredAccessToken, getStoredRefreshToken, useAuthStore } from "@/stores/auth-store";
 import type { ApiEnvelope, AuthSession, AuthTokens } from "@/types/api";
 
-const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000/api/v1";
+function normalizeApiBaseUrl(url: string) {
+  const trimmed = url.replace(/\/+$/, "");
+  return trimmed.endsWith("/api/v1") ? trimmed : `${trimmed}/api/v1`;
+}
+
+const apiBaseUrl = normalizeApiBaseUrl(
+  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:5000",
+);
 
 type ApiOptions = RequestInit & {
   auth?: boolean;
